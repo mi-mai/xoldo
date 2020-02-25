@@ -1,6 +1,6 @@
-# Soldo
+# Xoldo
 
-Soldo is a novel coin based on the modified Cryptonote PoW algorithm called SoftCrypton.
+Xoldo is a novel coin based on the modified Cryptonote PoW algorithm called SoftCrypton.
 
 Soldo was designed as a light alternative to current Cryptonote-based coins.
 It should be mineable even with low-end PCs, including phones and tablets.
@@ -11,7 +11,7 @@ Transfer's tiny flat fee is another key point of Soldo for everyday use.
 
 ### Download pre-compiled Soldo apps
 
-Latest Soldo releases could be found at https://github.com/monselice/xoldo/releases
+Latest Xoldo releases could be found at https://github.com/monselice/xoldo/releases
 
 Download ZIP-archive and unpack it to a folder (c:\Bin\Bit)
 
@@ -19,13 +19,13 @@ Download ZIP-archive and unpack it to a folder (c:\Bin\Bit)
 
 this archive contains several apps and batch files.
 
-sldd.exe - coin's daemon
+xldd.exe - coin's daemon
 
-sldw.exe - wallet app
+xldw.exe - wallet app
 
-sldm.exe - CPU solo miner app
+xldm.exe - CPU solo miner app
 
-sldp.exe - payments app for exchanges
+xldp.exe - payments app for exchanges
 
 new-wallet.bat - batch file to generate new wallet
 
@@ -162,7 +162,7 @@ To remove Soldo data, press [Win+R] key, type %APPDATA%, and delete sld folder i
 
 ## Linux Users
 
-### Building Soldo
+### Building Xoldo
 
 Dependencies: GCC 4.7.3 or later, CMake 2.8.6 or later, and Boost 1.56 or later.
 
@@ -185,8 +185,8 @@ sudo apt install build-essential
 sudo apt install libboost-dev libboost-all-dev 
 
 cd ~
-git clone https://github.com/monselice/sld.git sld
-cd sld
+git clone https://github.com/monselice/xoldo/ xold
+cd xold
 mkdir build
 cd build
 cmake ..
